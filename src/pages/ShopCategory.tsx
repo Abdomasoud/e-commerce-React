@@ -3,7 +3,7 @@ type Props = {
 };
 
 const ShopCategory = (category: Props) => {
-  return <div>ShopCategory</div>;
+  return <div>{category.category}</div>;
 };
 
 export default ShopCategory;

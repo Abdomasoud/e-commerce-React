@@ -3,9 +3,7 @@ import Logo from "../../assets/logo.png";
 import Cart from "../../assets/cart_icon.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const [menu, setMenu] = useState("shop");
 
   return (

@@ -2,9 +2,7 @@ import "./Hero.css";
 import HandIcon from "../../assets/hand_icon.png";
 import ArrowIcon from "../../assets/arrow.png";
 import HeroImage from "../../assets/hero_image.png";
-type Props = {};
-
-const Hero = (props: Props) => {
+const Hero = () => {
   return (
     <div className="hero">
       <div className="hero-left">
